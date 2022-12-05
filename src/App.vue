@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img class="image" data-index="0" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="1" data-status="inactive"  src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="2" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="3" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="4" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="5" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="6" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="7" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="8" data-status="inactive" src="https://source.unsplash.com/random"/>
+  <img class="image" data-index="9" data-status="inactive" src="https://source.unsplash.com/random"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
