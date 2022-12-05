@@ -64,11 +64,12 @@ body{
   width: 50vmin;
   position: absolute;
   transform: translate(-50%,-50%);
+  transition: opacity .2s linear;
 }
 .image[data-status="inactive"]{
-  display:none;
+  opacity: 0;
 }
 .image[data-status="active"]{
-  display:block;
+  opacity: 1;
 }
 </style>
